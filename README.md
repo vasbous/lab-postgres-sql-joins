@@ -11,7 +11,7 @@ This exercise allows you to practice and apply the concepts and techniques taugh
 
 Upon completion of this exercise, you will be able to:
 
-- Define PRIMARY and FOREIGN keys in PostgreSQL tables.
+- Define PRIMARY and foreign keys in PostgreSQL tables.
 - Use different types of JOIN operations to retrieve data from multiple tables.
 
   <br>
