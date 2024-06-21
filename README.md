@@ -163,37 +163,37 @@ After you run a query in your `psql` client and get the correct result, remember
 
 <br>
 
-1. **INNER JOIN: Authors and Books**
+1. Using an **INNER JOIN**, list all books (left table) that have an assigned author (right table). The result should include only books with assigned authors.
+<br>
 
-   - Write a query to find all books along with the names of their authors.
+2. Using a **LEFT JOIN**, list all authors (left table) and their corresponding books on the (right table). The result should include all authors, including those who don't have any books assigned.
 
-2. **INNER JOIN: Books and Publishers**
+<br>
 
-   - Write a query to display each book's title along with its publisher's name and location.
+3. Using a **RIGHT JOIN**, list all books (right table) and their corresponding authors on the (left table). The result should include books without assigned authors.
 
-3. **LEFT JOIN: Authors and Books**
+<br>
 
-   - Write a query to list all authors and their books, including those who haven't written any books.
+4. Using a **FULL JOIN**, list all records from the `books` and `authors` tables. The result should include all details from both tables, even if there are no match.
 
-4. **LEFT JOIN: Publishers and Books**
+<br>
 
-   - Write a query to show all publishers and any books they have published; include publishers who haven't published any books.
+## BONUS: Iteration 3 - Joins (continued)
 
-5. **RIGHT JOIN: Books and Authors**
+1. Using an **INNER JOIN**, list all books (left table) and their corresponding publishers on the (right table). The result should include the book's title, publisher's name, and location.
 
-   - Write a query to find all books, their titles, and the names of their authors, including books without assigned authors.
+<br>
 
-6. **RIGHT JOIN: Books and Publishers**
+2. Using a **LEFT JOIN**, list all publishers (left table) and any books they have published on the (right table). The result should include all publishers, including those who haven't published any books.
 
-   - Write a query to display all books and their publishers, ensuring every book is listed, even those without a linked publisher.
+<br>
 
-7. **FULL JOIN: Authors, Books, and Publishers**
+3. Using a **RIGHT JOIN**, list all books (right table) and their corresponding publishers on the (left table). The result should include all books, even those without a linked publisher.
 
-   - Write a query using a FULL JOIN to list all records from `authors`, `books`, and `publishers`.
+<br>
 
-8. **FULL JOIN: Books on Multiple Conditions**
+4. Using a **FULL JOIN**, list all records from the `authors`, `books`, and `publishers` tables. The result should include all records from the three tables, even if there are no matches between them.
 
-   - Write a query to FULL JOIN books on both `author_id` and `publisher_id`, showing all details from both sides.
+<br>
 
-9. **Bonus: JOIN All Three Tables**
-   - Write a query to list all books, their authors, and their publishers, using a combination of JOIN types to ensure no data is left out.
+Happy Coding! 💙
