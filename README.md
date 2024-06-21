@@ -64,7 +64,7 @@ SELECT * FROM technologies;
 
 ## Iteration 1 - Database Setup
 
-First, let's set up our database with the tables and data we will be working with. You will need to create three tables: `authors`, `books`, and `publishers`.
+First, let's set up our database with the tables and data we will be working with.
 
 1. **Create Database**
    First, create a new database called `library`:
@@ -77,6 +77,7 @@ CREATE DATABASE library;
 
 2. **Create Tables**
 
+Next, we will create three tables that we will use during the lab: `authors`, `books`, and `publishers`.
 Run the following SQL commands to create the database tables:
 
 ```sql
