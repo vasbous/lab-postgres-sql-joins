@@ -78,6 +78,7 @@ CREATE DATABASE library;
 2. **Create Tables**
 
 Next, we will create three tables that we will use during the lab: `authors`, `books`, and `publishers`.
+
 Run the following SQL commands to create the database tables:
 
 ```sql
@@ -103,6 +104,8 @@ CREATE TABLE books (
     publish_date DATE
 );
 ```
+
+<br>
 
 3. **Insert Data**
 
