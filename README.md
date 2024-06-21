@@ -153,6 +153,8 @@ INSERT INTO books (title, author_id, publisher_id, publish_date) VALUES
 ('To Kill a Mockingbird', 10, 8, '1960-07-11');
 ```
 
+<br>
+
 ## Iteration 2 - Joins
 
 In this iteration, you will need to use JOIN operations to query and combine data from the `authors`, `books`, and `publishers` tables, as explained in the tasks below.
