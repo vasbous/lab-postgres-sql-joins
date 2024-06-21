@@ -20,14 +20,20 @@ Upon completion of this exercise, you will be able to:
 
 </details>
 
+<br>
+
 ## Introduction
 
 Now that we've learned how to use primary and foreign keys to connect database tables and how to retrieve data from multiple tables using JOIN operations, it's time to apply this knowledge!
+
+<br>
 
 ## Getting Started
 
 - Fork this repo
 - Clone this repo
+
+<br>
 
 ## Submission
 
@@ -48,6 +54,8 @@ $ git push origin master
 Since we will be querying our database from `psql`, you will need to copy/paste the query you entered in `psql`.
 
 In the `queries.md` file, you will find the instructions about the query you need to perform in each iteration and a space to fill the answer.
+
+<br>
 
 ### Example
 
