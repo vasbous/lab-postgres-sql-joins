@@ -69,7 +69,7 @@ First, let's set up our database with the tables and data we will be working wit
 1. **Create Database**
    First, create a new database called `library`:
 
-```postgresql
+```sql
 CREATE DATABASE library;
 ```
 
@@ -79,7 +79,7 @@ CREATE DATABASE library;
 
 Run the following SQL commands to create the database tables:
 
-```postgresql
+```sql
 CREATE TABLE authors (
     id SERIAL PRIMARY KEY,
     name VARCHAR(100) NOT NULL,
