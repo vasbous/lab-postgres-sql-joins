@@ -155,10 +155,10 @@ INSERT INTO books (title, author_id, publisher_id, publish_date) VALUES
 ('Adventures of Huckleberry Finn', 3, 3, '1884-12-10'),
 ('The Adventures of Tom Sawyer', 3, 3, '1876-06-09'),
 ('Murder on the Orient Express', 4, 4, '1934-01-01'),
-('The Shining', 5, 5, '1977-01-28'),
 ('Oliver Twist', 6, 6, '1837-02-01'),
-('War and Peace', 7, 7, '1869-01-01'),
-('To Kill a Mockingbird', 10, 8, '1960-07-11');
+('To Kill a Mockingbird', 10, 8, '1960-07-11'),
+('The Mysterious Manuscript', NULL, NULL, '2019-11-05'),
+('Echoes in the Void', NULL, NULL, '2020-07-13');
 ```
 
 <br>
